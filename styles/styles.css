@@ -820,6 +820,15 @@ option {
   footer .footerNav nav ul {
     width: auto;
   }
+
+  .mapFormContainer .map {
+    width: 45%;
+  }
+
+  .contactForm {
+    width: 55%;
+    margin-left: 50px;
+  }
 }
 @media (max-width: 800px) {
   footer .newsletter {
@@ -883,5 +892,9 @@ option {
   }
   footer .socialIcons {
     margin-bottom: 30px;
+  }
+
+  .mapFormContainer .map {
+    width: 100%;
   }
 }
